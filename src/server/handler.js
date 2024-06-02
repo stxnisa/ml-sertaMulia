@@ -12,7 +12,7 @@ async function postPredictHandler(request, h) {
  
   const data = {
     "id": id,
-    "result": label,,
+    "result": label,
     "suggestion": suggestion,
     "createdAt": createdAt
   }
